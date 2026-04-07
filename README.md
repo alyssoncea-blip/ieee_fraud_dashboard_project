@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Transaction Risk Intelligence Dashboard
 
 Interactive dashboard for exploratory analysis of the IEEE-CIS Fraud Detection dataset, combining machine learning-based risk scoring with real-time filtering and interactive visualizations.
@@ -123,4 +122,3 @@ This dashboard transforms raw transaction data into actionable risk intelligence
 - **Explore interactively** -- Date range, amount, and risk level filters allow analysts to drill into specific slices without writing queries or rerunning batch jobs, making it a practical tool for ad-hoc investigations and compliance reporting.
 =======
 # ieee_fraud_dashboard_project
->>>>>>> eea65654302ba551deca674b50fac589c69b7122
