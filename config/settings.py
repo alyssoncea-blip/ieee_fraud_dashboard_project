@@ -1,0 +1,13 @@
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / 'data'
+TRAIN_TRANSACTION = DATA_DIR / 'train_transaction.csv'
+TRAIN_IDENTITY = DATA_DIR / 'train_identity.csv'
+
+REFERENCE_START_DATE = '2017-12-01'
+MAX_ROWS_DEFAULT = 120000
+IDENTITY_NULL_THRESHOLD = 0.98
+MAX_IDENTITY_CATEGORICAL_UNIQUES = 40
+MAX_TABLE_ROWS = 20
+RANDOM_STATE = 42
